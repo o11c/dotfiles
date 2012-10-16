@@ -1,0 +1,4 @@
+for F in ~/conf/bash-functions.d/*.sh
+do
+    source "$F"
+done

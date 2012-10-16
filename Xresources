@@ -1,0 +1,473 @@
+! ~/.Xresources
+! make bold text change colors as well ?
+!!!xterm*VT100*boldColors: on
+! turn off overstriking unconditionally
+!!!xterm*VT100*allowBoldFonts: false
+! turn off overstriking (in conjunction with the font change below)
+! xterm*VT100*boldMode: false
+
+!
+xterm*VT100*allowWindowOps: true
+xterm*VT100*internalBorder: 0
+! Note: there is a KDE setting that overrides these
+xterm*VT100*foreground: white
+xterm*VT100*background: black
+xterm*VT100*altIsNotMeta: true
+xterm*VT100*altSendsEscape: true
+xterm*VT100*metaSendsEscape: false
+xterm*VT100*cursorBlink: true
+xterm*VT100*cutNewline: false
+! xterm*VT100*cursorUnderLine: false
+xterm*VT100*cutToBeginningOfLine: false
+xterm*VT100*rightScrollBar: true
+xterm*VT100*scrollBar: true
+xterm*VT100*shiftFonts: true
+*VT100*showMissingGlyphs: true
+*VT100*utf8Title: true
+
+
+
+! The tail of this file was created by catting the XTerm, XTerm-color, and UXTerm entries in /etc/X11/app-defaults/
+
+! ! $XTermId: XTerm.ad,v 1.85 2007/11/26 18:42:37 tom Exp $
+!
+! *saveLines: 1024
+!
+! *SimpleMenu*BackingStore: NotUseful
+! *SimpleMenu*menuLabel.font: -adobe-helvetica-bold-r-normal--*-120-*-*-*-*-iso8859-*
+! *SimpleMenu*menuLabel.vertSpace: 	100
+! *SimpleMenu*HorizontalMargins: 16
+! *SimpleMenu*Sme.height:	16
+!
+! *SimpleMenu*Cursor: left_ptr
+!
+! *mainMenu.Label:  Main Options
+! *mainMenu*toolbar*Label:  Toolbar
+! *mainMenu*securekbd*Label:  Secure Keyboard
+! *mainMenu*allowsends*Label:  Allow SendEvents
+! *mainMenu*redraw*Label:  Redraw Window
+! *mainMenu*logging*Label:  Log to File
+! *mainMenu*print*Label:  Print Window
+! *mainMenu*print-redir*Label:  Redirect to Printer
+! *mainMenu*8-bit control*Label: 8-Bit Controls
+! *mainMenu*backarrow key*Label: Backarrow Key (BS/DEL)
+! *mainMenu*num-lock*Label: Alt/NumLock Modifiers
+! *mainMenu*alt-esc*Label: Alt Sends Escape
+! *mainMenu*meta-esc*Label: Meta Sends Escape
+! *mainMenu*delete-is-del*Label: Delete is DEL
+! *mainMenu*oldFunctionKeys*Label: Old Function-Keys
+! *mainMenu*sunFunctionKeys*Label: Sun Function-Keys
+! *mainMenu*sunKeyboard*Label: VT220 Keyboard
+! *mainMenu*hpFunctionKeys*Label: HP Function-Keys
+! *mainMenu*scoFunctionKeys*Label: SCO Function-Keys
+! *mainMenu*tcapFunctionKeys*Label: Termcap Function-Keys
+! *mainMenu*suspend*Label:  Send STOP Signal
+! *mainMenu*continue*Label:  Send CONT Signal
+! *mainMenu*interrupt*Label:  Send INT Signal
+! *mainMenu*hangup*Label:  Send HUP Signal
+! *mainMenu*terminate*Label:  Send TERM Signal
+! *mainMenu*kill*Label:  Send KILL Signal
+! *mainMenu*quit*Label:  Quit
+!
+! *vtMenu.Label:  VT Options
+! *vtMenu*scrollbar*Label:  Enable Scrollbar
+! *vtMenu*jumpscroll*Label:  Enable Jump Scroll
+! *vtMenu*reversevideo*Label:  Enable Reverse Video
+! *vtMenu*autowrap*Label:  Enable Auto Wraparound
+! *vtMenu*reversewrap*Label:  Enable Reverse Wraparound
+! *vtMenu*autolinefeed*Label:  Enable Auto Linefeed
+! *vtMenu*appcursor*Label:  Enable Application Cursor Keys
+! *vtMenu*appkeypad*Label:  Enable Application Keypad
+! *vtMenu*scrollkey*Label:  Scroll to Bottom on Key Press
+! *vtMenu*scrollttyoutput*Label:  Scroll to Bottom on Tty Output
+! *vtMenu*allow132*Label: Allow 80/132 Column Switching
+! *vtMenu*keepSelection*Label: Keep Selection
+! *vtMenu*selectToClipboard*Label: Select to Clipboard
+! *vtMenu*cursesemul*Label:  Enable Curses Emulation
+! *vtMenu*visualbell*Label:  Enable Visual Bell
+! *vtMenu*bellIsUrgent*Label:  Enable Bell Urgency
+! *vtMenu*poponbell*Label:  Enable Pop on Bell
+! *vtMenu*cursorblink*Label: Enable Blinking Cursor
+! *vtMenu*titeInhibit*Label:  Enable Alternate Screen Switching
+! *vtMenu*activeicon*Label: Enable Active Icon
+! *vtMenu*softreset*Label:  Do Soft Reset
+! *vtMenu*hardreset*Label:  Do Full Reset
+! *vtMenu*clearsavedlines*Label:  Reset and Clear Saved Lines
+! *vtMenu*tekshow*Label:  Show Tek Window
+! *vtMenu*tekmode*Label:  Switch to Tek Mode
+! *vtMenu*vthide*Label:  Hide VT Window
+! *vtMenu*altscreen*Label:  Show Alternate Screen
+!
+! *fontMenu.Label:  VT Fonts
+! *fontMenu*fontdefault*Label:	Default
+! *fontMenu*font1*Label:	Unreadable
+! *VT100.font1:		nil2
+! *IconFont:		nil2
+! *fontMenu*font2*Label:	Tiny
+! *VT100.font2:		5x7
+! *fontMenu*font3*Label:	Small
+! *VT100.font3:		6x10
+! *fontMenu*font4*Label:	Medium
+! *VT100.font4:		7x13
+! *fontMenu*font5*Label:	Large
+! *VT100.font5:		9x15
+! *fontMenu*font6*Label:	Huge
+! *VT100.font6:		10x20
+! *fontMenu*fontescape*Label:	Escape Sequence
+! *fontMenu*fontsel*Label:	Selection
+! !fontescape and fontsel overridden by application
+! *fontMenu*font-linedrawing*Label: Line-Drawing Characters
+! *fontMenu*font-doublesize*Label: Doublesized Characters
+! *fontMenu*font-loadable*Label:	VT220 Soft Fonts
+! *fontMenu*render-font*Label:	TrueType Fonts
+! *fontMenu*utf8-mode*Label:	UTF-8
+! *fontMenu*utf8-title*Label:	UTF-8 Titles
+!
+! *VT100.utf8Fonts.font2:	-misc-fixed-medium-r-normal--8-80-75-75-c-50-iso10646-1
+! *VT100.utf8Fonts.font:	-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1
+! *VT100.utf8Fonts.font3:	-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso10646-1
+! *VT100.utf8Fonts.font4:	-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso10646-1
+! *VT100.utf8Fonts.font5:	-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+! *VT100.utf8Fonts.font6:	-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso10646-1
+!
+! *tekMenu.Label:  Tek Options
+! *tekMenu*tektextlarge*Label:  Large Characters
+! *tekMenu*tektext2*Label:  #2 Size Characters
+! *tekMenu*tektext3*Label:  #3 Size Characters
+! *tekMenu*tektextsmall*Label:  Small Characters
+! *tekMenu*tekpage*Label:  PAGE
+! *tekMenu*tekreset*Label:  RESET
+! *tekMenu*tekcopy*Label:  COPY
+! *tekMenu*vtshow*Label:  Show VT Window
+! *tekMenu*vtmode*Label:  Switch to VT Mode
+! *tekMenu*tekhide*Label:  Hide Tek Window
+!
+! *tek4014*fontLarge: 9x15
+! *tek4014*font2: 8x13
+! *tek4014*font3: 6x13
+! *tek4014*fontSmall: 6x10
+!
+! ! Debian package customizations follow.
+! *backarrowKeyIsErase: true
+! *ptyInitialErase: true
+!
+! ! If xterm is built with a toolbar, the widget hierarchy looks like this,
+! ! showing widget name / class names.  The complete menu hierarchy is built
+! ! at startup because it is needed to make the layout work for the menubar:
+! !
+! !	xterm/XTerm
+! !		form/Form
+! !			menubar/Box
+! !				mainMenuButton/MenuButton
+! !					mainMenu/SimpleMenu
+! !						menuLabel/SmeBSB
+! !						toolbar/SmeBSB
+! !						...
+! !					vtMenu/SimpleMenu
+! !						menuLabel/SmeBSB
+! !						scrollbar/SmeBSB
+! !						...
+! !					fontMenu/SimpleMenu
+! !						menuLabel/SmeBSB
+! !						fontdefault/SmeBSB
+! !						...
+! !					tekMenu/SimpleMenu
+! !						menuLabel/SmeBSB
+! !						fontdefault/SmeBSB
+! !						...
+! !			vt100/VT100
+! !			tektronix/TopLevelShell
+! !				shellext/VendorShellExt
+! !					tek4014/Tek4014
+! !
+! ! If built without a toolbar, the widget hierarchy is simpler, because there
+! ! is no form, and the popup menu widgets are created only when they are first
+! ! used.
+! !
+! !	xterm/XTerm
+! !		shellext/VendorShellExt
+! !			mainMenu/SimpleMenu
+! !				menuLabel/SmeBSB
+! !				...
+! !			...
+! !		vt100/VT100
+! !		tektronix/TopLevelShell
+! !			shellext/VendorShellExt
+! !				tek4014/Tek4014
+! !
+! ! A more complete list of the widget/class names can be obtained using editres
+! ! to dump a file.  Some widget names are not available until the corresponding
+! ! menu has been created.
+!
+! ! These resources reduce space around the menubar, by eliminating padding in
+! ! the enclosing form (Thickness) and the border of the Box which represents
+! ! the menubar widget.
+! *form.Thickness: 0
+! *menubar.borderWidth: 0
+!
+! ! If we wanted to eliminate the border of the popup menus, we could do this
+! ! instead, since they are children of the menubar:
+! !*menubar*borderWidth: 0
+!
+! ! Eliminate the border of the buttons in the menubar, so the only line around
+! ! the text is for the highlighted button:
+! *MenuButton*borderWidth: 0
+!
+! ! Set a border for the menus to make them simpler to distinguish against the
+! ! vt100 widget:
+! *SimpleMenu*borderWidth: 2
+!
+! ! Here is a pattern that is useful for double-clicking on a URL:
+! *charClass: 33:48,35:48,37-38:48,43-47:48,58:48,61:48,63-64:48,95:48,126:48
+! !
+! ! Alternatively,
+! !*on2Clicks: regex [[:alpha:]]+://([[:alnum:]!#+,./=?@_~-]|(%[[:xdigit:]][[:xdigit:]]))+
+! ! $XTermId: XTerm-col.ad,v 1.20 2006/06/24 14:57:29 tom Exp $
+! ! $XFree86: xc/programs/xterm/XTerm-col.ad,v 3.7 2005/09/18 23:48:12 dickey Exp $
+!
+! #include "XTerm"
+!
+! *VT100*colorMode: on
+! *VT100*boldColors: on
+! *VT100*dynamicColors: on
+!
+! ! Set the default text foreground and background colors.
+! *VT100*foreground: gray90
+! *VT100*background: black
+!
+! ! - OR -
+! ! Uncomment this for black text on a "white" background.
+! !*VT100*foreground: black
+! !*VT100*background: gray90
+!
+! ! - OR -
+! ! leave the foreground/background colors alone (at the mercy of your desktop
+! ! designer).
+!
+! ! Color the popup/pulldown menu border to match the text widget's foreground.   '
+! !*SimpleMenu*borderColor: gray15
+!
+! ! Uncomment this to use color for underline attribute
+! !*VT100*colorULMode: on
+! *VT100*colorUL: yellow
+!
+! !*VT100*italicULMode: on
+!
+! ! Uncomment this to disable underlining, e.g., if colorULMode is set.
+! !*VT100*underLine: off
+!
+! ! Uncomment this to use color for the bold attribute
+! !*VT100*colorBDMode: on
+! *VT100*colorBD: white
+!
+! ! Uncomment this to use the bold/underline colors in preference to other colors
+! !*VT100*colorAttrMode: on
+!
+! ! These are the 8 ANSI colors and their bright equivalents.  Depending on
+! ! other resource settings, xterm may use the bright colors when displaying
+! ! bold text (see the boldColors resource).
+! *VT100*color0: black
+! *VT100*color1: red3
+! *VT100*color2: green3
+! *VT100*color3: yellow3
+! *VT100*color4: blue2
+! *VT100*color5: magenta3
+! *VT100*color6: cyan3
+! *VT100*color7: gray90
+! *VT100*color8: gray50
+! *VT100*color9: red
+! *VT100*color10: green
+! *VT100*color11: yellow
+! *VT100*color12: rgb:5c/5c/ff
+! *VT100*color13: magenta
+! *VT100*color14: cyan
+! *VT100*color15: white
+!
+! ! Disclaimer: there are no standard colors used in terminal emulation.
+! !
+! ! The choice for color4 and color12 is a tradeoff between contrast, depending
+! ! on whether they are used for text or backgrounds.  Note that either color4 or
+! ! color12 would be used for text, while only color4 would be used for a
+! ! background.  These are treated specially, since the luminosity of blue is
+! ! only about half that of red/green, and is typically not accounted for in the
+! ! RGB scheme.
+! !
+! ! Blue text on a black background should be readable.
+! ! Blue backgrounds should not be "too" bright.
+! !
+! ! Originally color4/color12 were set to the names blue3/blue
+! !*VT100*color4: blue3
+! !*VT100*color12: blue
+! !
+! ! They are from rgb.txt respectively:
+! !  0   0 205		blue3
+! !  0   0 255		blue
+! ! However, blue3 is not readable on a black background.
+! !
+! ! Another choice was from the Debian settings:
+! !*VT100*color4: DodgerBlue1
+! !*VT100*color12: SteelBlue1
+! !
+! ! From rgb.txt:
+! ! 30 144 255		DodgerBlue1
+! ! 99 184 255		SteelBlue1
+! !
+! ! Some users object to this choice because the background (color4) is brighter
+! ! than they are accustomed.  Others point out that the different weights for
+! ! the red/green components make it appear to be not really blue.  Finally, it
+! ! provides poor contrast against color13 and color14.
+! !
+! ! The current choice uses equal weights for red/green (effectively adding a
+! ! gray to the result).  It is brighter than the original choice, and provides
+! ! more contrast between color12 and color13, color14 than SteelBlue1 did.
+! ! Contrast of color4 against black is slightly improved over the original.
+! !
+! ! Some refinement is certainly possible (you are welcome to try) -TD
+!
+!
+! #if PLANES > 8
+! ! Color the popup menus and the menubar to match:
+! *SimpleMenu*background: AntiqueWhite
+! *SimpleMenu*foreground: gray15
+!
+! ! Color the menubar to match:
+! *Form.menubar.background: AntiqueWhite
+! *Form.menubar*background: AntiqueWhite
+! *Form.menubar.foreground: gray15
+! *Form.menubar*foreground: gray15
+! *Form.background: AntiqueWhite
+! *form.background: AntiqueWhite
+!
+! *mainMenu*background: AntiqueWhite
+! *mainMenu*foreground: gray15
+! *vtMenu*background: AntiqueWhite
+! *vtMenu*foreground: gray15
+! *fontMenu*background: AntiqueWhite
+! *fontMenu*foreground: gray15
+! *tekMenu*background: AntiqueWhite
+! *tekMenu*foreground: gray15
+!
+! ! The following two sections take advantage of new features in version 7
+! ! of the Athena widget library; see Xaw(7x).
+!
+! ! This section is commented out because Xaw has no way to dynamically size
+! ! the gradient.  The dimension parameter may need to be adjusted depending
+! ! on the font used in the menu.
+! !*SimpleMenu*backgroundPixmap:   gradient:vertical?dimension=350&start=gray90&end=gray60
+! !*SimpleMenu*foreground:         gray15
+!
+! *VT100.scrollbar.thumb:         vlines2
+! *VT100.scrollbar.width:         14
+! *VT100.scrollbar.background:    gray60
+! *VT100.scrollbar.foreground:    rgb:a/5/5
+! *VT100.scrollbar.borderWidth:   0
+! *VT100.scrollbar.displayList:\
+! foreground      gray90;\
+! lines           1,-1,-1,-1,-1,1;\
+! foreground      gray60;\
+! lines           -1,0,0,0,0,-1
+! #endif
+! ! $XTermId: UXTerm.ad,v 1.11 2006/02/13 01:14:58 tom Exp $
+! ! $XFree86: xc/programs/xterm/UXTerm.ad,v 1.5 2006/02/13 01:14:58 dickey Exp $
+!
+! ! Use
+! !	xterm -class UXTerm
+! ! to set resources for UTF-8 mode with corresponding fonts.
+! ! See the uxterm script for an example.
+!
+! #include "XTerm-color"
+!
+! *fontMenu.Label:  Unicode Fonts
+! *VT100.utf8:	1
+!
+! ! This includes "XTerm-color" which includes "XTerm", which defines fonts.
+! ! Why set them here?
+! !
+! ! Here is a simple description.  A technically precise one would be very long.
+! ! When xterm starts up, it uses the
+! !
+! !	*VT100.font
+! !
+! ! resource, and if it is told to switch to wide-character (UTF-8) mode, it
+! ! checks if the given font is "wide", and if not looks for the
+! !
+! !	*VT100.utf8Fonts.font
+! !
+! ! to obtain a wide font.  A "wide" font has more than 256 glyphs.  Typical
+! ! wide fonts have 10,000 glyphs.  If the original "*VT100.font" is not wide,
+! ! and xterm can load the *VT100.utf8Fonts.font, it will use that.
+! !
+! ! Making the wide fonts associated with *VT100.font in this file allows uxterm
+! ! to skip that step.  It will use the fonts that the XTerm file gives for the
+! ! *VT100.uft8Fonts.font pattern.
+! *VT100.font2:	-misc-fixed-medium-r-normal--8-80-75-75-c-50-iso10646-1
+! *VT100.font:	-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1
+! *VT100.font3:	-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso10646-1
+! *VT100.font4:	-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso10646-1
+! *VT100.font5:	-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+! *VT100.font6:	-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso10646-1
+!
+! ! Here is an alternate set of fonts with better support for bold:
+! !*VT100.font2:	-efont-biwidth-medium-r-normal--10-100-75-75-p-50-iso10646-1
+! !*VT100.font:	-efont-biwidth-medium-r-normal--10-100-75-75-p-50-iso10646-1
+! !*VT100.font3:	-efont-biwidth-medium-r-normal--12-120-75-75-p-60-iso10646-1
+! !*VT100.font4:	-efont-biwidth-medium-r-normal--14-140-75-75-p-70-iso10646-1
+! !*VT100.font5:	-efont-biwidth-medium-r-normal--16-160-75-75-p-80-iso10646-1
+! !*VT100.font6:	-efont-biwidth-medium-r-normal--24-240-75-75-p-120-iso10646-1
+
+
+
+! .Xresources file on my desktop
+
+
+xterm*background: black
+!rgb:00/00/1f
+xterm*foreground: white
+!rgb:ff/ff/e0
+
+! xterm*color0:     rgb:00/00/00
+! xterm*color1:     rgb:ff/00/00
+! xterm*color2:     rgb:00/ff/00
+! xterm*color3:     rgb:aa/55/00
+! xterm*color4:     rgb:00/00/ff
+! xterm*color5:     rgb:aa/00/aa
+! xterm*color6:     rgb:00/aa/aa
+! xterm*color7:     rgb:aa/aa/aa
+! xterm*color8:     rgb:55/55/55
+! xterm*color9:     rgb:ff/80/80
+! xterm*color10:    rgb:80/ff/80
+! xterm*color11:    rgb:ff/ff/00
+! xterm*color12:    rgb:80/80/ff
+! xterm*color13:    rgb:ff/00/ff
+! xterm*color14:    rgb:00/ff/ff
+! xterm*color15:    rgb:ff/ff/ff
+
+! Do not use overstrike to emulate bold for wide characters. Getting used to it for normals, too
+! (Special characters really suck in bold mode)
+! xterm*boldFont: fixed
+! xterm*wideBoldFont: fixed
+! xterm*boldFont: -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1
+! xterm*wideBoldFont: -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1
+
+xterm*backarrowKey : false
+xterm*scrollBar:          true
+xterm*rightScrollBar:     true
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+xterm*termName:           xterm-256color
+xterm*ttyModes:           erase ^?
+
+
+xclock*update:            1
+xclock*analog:            false
+! xclock*Foreground:        white
+! xclock*background:        black
+xclock*width:             280
+xclock*height:            28
+
+! XTerm*VT100.translations: #override \n      <Btn4Down>: string(0x1b) string("[A") \n      <Btn5Down>: string(0x1b) string("[B")
+
+xterm*altIsNotMeta: true
+xterm*altSendsEscape: true
+xterm*metaSendsEscape: false

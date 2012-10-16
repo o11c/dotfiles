@@ -1,0 +1,1 @@
+alias kate='kate -n'

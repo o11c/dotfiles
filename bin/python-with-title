@@ -1,0 +1,3 @@
+#!/bin/sh
+title python "$@"
+exec python "$@"

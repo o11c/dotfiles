@@ -1,0 +1,1 @@
+alias hardlink='hardlink -t'

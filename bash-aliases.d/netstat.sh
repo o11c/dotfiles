@@ -1,0 +1,1 @@
+alias netstats='netstat -ltu'

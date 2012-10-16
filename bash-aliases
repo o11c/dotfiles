@@ -1,0 +1,4 @@
+for F in ~/conf/bash-aliases.d/*.sh
+do
+    source "$F"
+done
