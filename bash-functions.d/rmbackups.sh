@@ -1,1 +1,5 @@
-## remove all backup files in the current directory
+## remove backup files in the current directory
+rmbackups () 
+{ 
+    rmecho *~
+}

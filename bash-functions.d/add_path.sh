@@ -1,1 +1,5 @@
-## Append a directory to $PATH
+## append a directory to $PATH
+add_path () 
+{ 
+    PATH="$PATH:$1"
+}
