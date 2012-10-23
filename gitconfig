@@ -14,6 +14,7 @@
 	excludesfile = ~/conf/gitexcludes
 	autocrlf = input
 	whitespace = blank-at-eol,space-before-tab,tab-in-indent,blank-at-eof
+	attributesfile = /home/ben/conf/gitattributes
 [url "git@gitorious.org:"]
 	pushInsteadOf = git://gitorious.org
 [url "git@github.com:"]
@@ -24,5 +25,5 @@
 [log]
 	date = iso
 [alias]
-    wdiff = diff --color-words=[A-Za-z_][A-Za-z_0-9]+|[0-9.]+|[<=>]+|[^[:space:]]
-    wshow = show --color-words=[A-Za-z_][A-Za-z_0-9]+|[0-9.]+|[<=>]+|[^[:space:]]
+	wdiff = diff --color-words=[A-Za-z_][A-Za-z_0-9]+|[0-9.]+|[<=>]+|[^[:space:]]
+	wshow = show --color-words=[A-Za-z_][A-Za-z_0-9]+|[0-9.]+|[<=>]+|[^[:space:]]

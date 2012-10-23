@@ -1,0 +1,4 @@
+# allow tab-in-indent
+Makefile whitespace=blank-at-eol,space-before-tab,blank-at-eof,indent-with-non-tab,tabwidth=1
+GNUmakefile whitespace=blank-at-eol,space-before-tab,blank-at-eof,indent-with-non-tab,tabwidth=1
+*.make whitespace=blank-at-eol,space-before-tab,blank-at-eof,indent-with-non-tab,tabwidth=1

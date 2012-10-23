@@ -1,0 +1,2 @@
+# allow tab-in-indent
+/gitconfig whitespace=blank-at-eol,space-before-tab,blank-at-eof,indent-with-non-tab,tabwidth=1
