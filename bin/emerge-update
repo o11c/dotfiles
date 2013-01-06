@@ -9,17 +9,17 @@ not-changed()
     genlop -s "$1" --date "epoch $START" | grep -q '!!!'
 }
 FAILURES=""
-emerge -a --keep-going -DuN "${@:-@world}" || FAILURES="$FAILURES emerge($?)"
+emerge -av --keep-going -DuN "${@:-@world}" || FAILURES="$FAILURES emerge($?)"
 if false # TODO: replace with: if nothing changed
 then
     echo 'emerge did nothing; not running later steps!'
     exit 1
 fi
-revdep-rebuild || FAILURES="$FAILURES revdep-rebuild($?)"
-not-changed dev-lang/ghc || haskell-updater || FAILURES="$FAILURES haskell-updater($?)"
-not-changed dev-lang/perl || perl-cleaner --all || FAILURES="$FAILURES perl-cleaner($?)"
-not-changed dev-lang/python || python-updater || FAILURES="$FAILURES python-updater($?)"
-not-changed x11-base/xorg-server || emerge @x11-module-rebuild || FAILURES="$FAILURES x11-module-rebuild($?)"
+revdep-rebuild -- -v || FAILURES="$FAILURES revdep-rebuild($?)"
+not-changed dev-lang/ghc || haskell-updater -- -v || FAILURES="$FAILURES haskell-updater($?)"
+not-changed dev-lang/perl || perl-cleaner --all -- -v || FAILURES="$FAILURES perl-cleaner($?)"
+not-changed dev-lang/python || python-updater -- -v || FAILURES="$FAILURES python-updater($?)"
+not-changed x11-base/xorg-server || emerge -v @x11-module-rebuild || FAILURES="$FAILURES x11-module-rebuild($?)"
 etc-update || FAILURES="$FAILURES etc-update($?)"
 if test -z "$FAILURES"
 then

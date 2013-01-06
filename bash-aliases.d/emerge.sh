@@ -1,1 +1,1 @@
-alias emerge='sudo emerge -a'
+alias emerge='sudo emerge -av'
