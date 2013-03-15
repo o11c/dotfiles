@@ -1,0 +1,48 @@
+# This file is ~/.XCompose
+
+## %S is /usr/share/X11/locale
+## %L is %S/$LANG/Compose
+## %H is $HOME
+
+# include "%L"
+include "%H/conf/XCompose.d/default"
+
+<Multi_key> <underscore> <greater> : "⃑" # combining harpoon above - vector
+<Multi_key> <asciicircum> <minus> : "̄̄"
+<Multi_key> <asciicircum> <underscore> : "̄̄"
+<Multi_key> <asciicircum> <KP_Subtract> : "̄"
+
+<Multi_key> <bar> <bar> : "∥" # parallel
+<Multi_key> <bar> <underscore> : "⟂" # perpendicular
+<Multi_key> <underscore> <bar> : "⟂" # perpendicular
+
+# <Multi_key> <plus> <minus>     : "±"   plusminus # PLUS-MINUS SIGN
+<Multi_key> <plus> <KP_Subtract>     : "±"   plusminus # PLUS-MINUS SIGN
+<Multi_key> <KP_Add> <minus>     : "±"   plusminus # PLUS-MINUS SIGN
+<Multi_key> <KP_Add> <KP_Subtract>     : "±"   plusminus # PLUS-MINUS SIGN
+
+<Multi_key> <minus> <plus> : "∓" # minusplus
+<Multi_key> <minus> <KP_Add> : "∓" # minusplus
+<Multi_key> <KP_Subtract> <plus> : "∓" # minusplus
+<Multi_key> <KP_Subtract> <KP_Add> : "∓" # minusplus
+
+<Multi_key> <bar> <v> : "↓" # down arrow
+<Multi_key> <bar> <asciicircum> : "↑" # up arrow
+<Multi_key> <v> <bar> : "↓" # down arrow
+<Multi_key> <asciicircum> <bar> : "↑" # up arrow
+
+<Multi_key> <less> <backslash> : "↖"
+<Multi_key> <slash <greater> : "↗"
+<Multi_key> <backslash> <greater> : "↘"
+<Multi_key> <less> <slash> : "↙"
+
+<Multi_key> <less> <equal> : "⇐"
+<Multi_key> <equal> <asciicircum> : "⇑"
+<Multi_key> <equal> <greater> : "⇒"
+<Multi_key> <equal> <v> : "⇓"
+<Multi_key> <v> <equal> : "⇓"
+
+<Multi_key> <slash> <backslash> : "∧" # logical and
+<Multi_key> <backslash> <slash> : "∨" # logical or
+
+<Multi_key> <equal> <equal> <equal> : "≡" # identity; equivalent

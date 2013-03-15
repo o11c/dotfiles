@@ -1,0 +1,7 @@
+# This is for files to be ignored by git, WITHIN my config repo
+
+# python code cache
+*.pyc
+
+# loaded by VAM
+/vim/vim-addons

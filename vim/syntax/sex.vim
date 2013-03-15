@@ -8,7 +8,11 @@ if exists("b:current_syntax")
 endif
 let b:current_syntax = "sex"
 
-"syn region sexDisabled start='(DISABLED' end=')' contains=sexTopLevel
+" TODO read :help 44 again , also :help syntax.txt
+syn sync fromstart
+" syn sync ccomment group_that_matches_any_line_not_starting_with_space
+
+"syn region sexDisabled start='(DISABLED' end=')' contains=@sexTopLevel
 "syn cluster sexTopLevel contains=sexAssignment,sexConst,sexProcedure,sexSpell,sexStringComment
 "syn region sexAssignment start='(SET' end=')'
 "syn region sexConst start='(CONST' end=')'
@@ -65,6 +69,6 @@ hi def link sexTopLevelKeywords Type
 hi def link sexFunctionExpressions Statement " Not really
 hi def link sexStatements Special
 hi def link sexString Constant
-hi def link sexBackslashes Special
+hi def link sexBackslashes SpecialChar
 hi def link sexInt Constant
 hi def link sexObsoleteKeywords Todo

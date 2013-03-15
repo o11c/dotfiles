@@ -1,1 +1,1 @@
-FIGNORE='.o:~'
+FIGNORE='.o:~:.bc'
